@@ -1,2 +1,27 @@
-this is hello mayank
-this is the change from firstBranch
+1.git clone --repo_url
+2.gitignore 
+3.git init conveting_a_dir_into_local_repo_in_local_system
+3.git add . or git add fileName
+4.git commit -m "___msg__"
+5.check if repo is linked to remote repo or not
+	git remote -v
+   if local repo is not linked means git remote -v is empty
+	git remote add origin ___url_of_the_rempte_repo___
+6.git push origin __name_of_the_branch__
+7.git pull origin __name_of_the_branch__ to take changes from the remote
+	repo.
+8.git checkout -b __name_of_feature___ to create a branch 
+9.git checkout __name_of_the_branch___ to change a branch
+10.git merge __branch__name to take changes from one branch to another
+	locally
+11.git branch -a __to_list_all_the_branches___
+12.git branch -d __name_of_the_branch__ to delete the branch from local
+	repo.
+13.git push origin --delete __branch_name__ to delelte the branch 
+	from remote
+14.git status to_check_the_local_repo_status
+15.git log __to_get_the_list_all_the_commit's
+16.git reset . or git reset fileName to_move_the_file_from_stagging_to_untracked
+17.git fetch to_list__all_changes_in_the_remote_rep_done_by_fellow_devloper
+18.git restore . or git restore fileName to_remove_all_the_untracked_changes
+19.git config __to_configure_your_git
